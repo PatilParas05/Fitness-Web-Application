@@ -119,10 +119,10 @@ We welcome all new features, bug fixes, optimizations, and documentation improve
 To maintain project security and consistency, please follow the guidelines below:
 
 ### 🔐 Authentication
-All user-level features must verify an active session:
+Use this username and Password for login as admin:
 ```php
-$_SESSION['user_id'];
-🛡 Authorization (Admin Only)
+Username = admin
+Password = password
 ```
 ---
 ### 🛡 All admin-level features must validate:
